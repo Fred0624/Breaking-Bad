@@ -16,9 +16,9 @@ I am planning to create a character info app of Breaking Bad by using React. You
 * As a show watcher, I want to be able to find some info of the character that appeared a while ago and I did not remember him/her, so that I don't have to go back to find who he/she is.
 
 ## Screenshots
-![](../../../Screen%20Shot%202022-07-21%20at%204.04.30%20PM.png)
-![](../../../Screen%20Shot%202022-07-21%20at%204.04.44%20PM.png)
-![](../../../Screen%20Shot%202022-07-21%20at%204.04.59%20PM.png)
+![](src/screenshot/Screen%20Shot%202022-07-21%20at%204.04.30%20PM.png)
+![](src/screenshot/Screen%20Shot%202022-07-21%20at%204.04.44%20PM.png)
+![](src/screenshot/Screen%20Shot%202022-07-21%20at%204.04.59%20PM.png)
 
 ## Project Link
 https://enchanting-brioche-df2531.netlify.app
