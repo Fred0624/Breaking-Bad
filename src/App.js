@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Characters from './components/Characters';
@@ -32,34 +32,37 @@ function App() {
     })
   },[])
 
-  // const url1 = `https://www.breakingbadapi.com/api/characters?name=${query}`
+
 
     const handleChange = (event) => {
         setText(event.target.value)
-        console.log(text)
+
     }
+
+    let navigate = useNavigate()
 
     const handleSubmit =(event) => {
         event.preventDefault()
-        getInfo(text)
+        getInfo()
+        navigate(`/search/${text}`)
     }
 
     function getInfo() {
-      const text = ''
-      const url1 = `${url}&?name=${text} `
+      const url1 = `https://www.breakingbadapi.com/api/characters?name=${text} `
       fetch(url1)
         .then(res => res.json())
         .then((res) => {
             setSearchCharacter(res)
-            console.log(searchCharacter)
+            console.log(res)
         })
+        
         .catch((err) => 
             console.log(err)
         )
     }
 
     useEffect(() => {
-        getInfo(text)
+        getInfo()
     },[])
 
   return (
@@ -71,7 +74,7 @@ function App() {
           <Route path='/characters' element={<Characters characters={characters} />} />
           <Route path='/characters/:char_id' element={<CharacterDetail />} />
           <Route path='/search' element={<Search handleChange={handleChange} handleSubmit={handleSubmit} text={text}/>} />
-          <Route path='/search/:name' element={<SearchResult searchCharcter={searchCharacter} />} />
+          <Route path='/search/:name' element={<SearchResult searchCharacter={searchCharacter} />} />
           <Route path='/about' element={<About />} />
         </Routes>
       </main>
