@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Project React--Breaking Bad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Info
+I am planning to create a character info app of Breaking Bad by using React. You can search the name of the character to see more info of him/her.
 
-## Available Scripts
+## Techanologies used
+* CSS
+* React
+* React Bootstrap
 
-In the project directory, you can run:
+## User Stories
+* As a new Breaking Bad audience, I want to be able to find some detail info for main characters, so that I can easily to get into the show.
 
-### `npm start`
+* As a Breaking Bad fan, I want to be able to find some detail info of characters, so that will help me to understand more about the show.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* As a show watcher, I want to be able to find some info of the character that appeared a while ago and I did not remember him/her, so that I don't have to go back to find who he/she is.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+![](../../../Screen%20Shot%202022-07-21%20at%204.04.30%20PM.png)
+![](../../../Screen%20Shot%202022-07-21%20at%204.04.44%20PM.png)
+![](../../../Screen%20Shot%202022-07-21%20at%204.04.59%20PM.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Link
+https://enchanting-brioche-df2531.netlify.app
