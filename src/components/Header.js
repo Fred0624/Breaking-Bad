@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect variant='dark' expand='md'>
             <Nav>
-                <Nav.Link as={Link} to='/home'>
+                <Nav.Link as={Link} to='/'>
                     Home
                 </Nav.Link>
                 <Nav.Link as={Link} to='/characters'>

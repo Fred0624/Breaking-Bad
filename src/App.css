@@ -5,3 +5,45 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.homePage {
+  text-align: center;
+  color: white;
+}
+
+.chaImg {
+  height: 250px;
+  width: 180px;
+}
+
+.card {
+  background: transparent;
+}
+
+.nameLink {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.detailInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.detailPic {
+  height: 100%;
+  width: 50vh;
+  grid-column: 1;
+}
+
+.description {
+  grid-column: 2;
+  text-align: center;
+}
+
+.about {
+  color: white;
+  font-size: 25px;
+}
