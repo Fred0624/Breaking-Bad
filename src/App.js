@@ -46,7 +46,7 @@ function App() {
 
     function getInfo() {
       const text = ''
-      const url1 = `${url}&name=${text} `
+      const url1 = `${url}&?name=${text} `
       fetch(url1)
         .then(res => res.json())
         .then((res) => {
