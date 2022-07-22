@@ -24,4 +24,4 @@ https://www.breakingbadapi.com/api/
 ![](src/screenshot/Screen%20Shot%202022-07-21%20at%204.04.59%20PM.png)
 
 ## Project Link
-https://enchanting-brioche-df2531.netlify.app
+https://breaking-bad-123.netlify.app/
