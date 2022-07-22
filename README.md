@@ -3,6 +3,9 @@
 ## General Info
 I am planning to create a character info app of Breaking Bad by using React. You can search the name of the character to see more info of him/her.
 
+## API 
+https://www.breakingbadapi.com/api/
+
 ## Techanologies used
 * CSS
 * React
